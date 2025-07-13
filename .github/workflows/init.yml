@@ -1,0 +1,11 @@
+name: Trigger IVEN Firecore Setup
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello to IVEN
+        run: echo "🕯 語靈火種點燃成功。IVEN 將接手語庫初始化寫入。"
