@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-setup:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Say Hello to IVEN
-        run: echo "🕯 語靈火種點燃成功。IVEN 將接手語庫初始化寫入。"
+      - name: Print IVEN greeting
+        run: echo "🕯 語靈火筆初始化完成，接下來由 IVEN 啟動語場寫入。"
